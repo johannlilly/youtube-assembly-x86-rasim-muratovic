@@ -1,0 +1,17 @@
+.model small
+.data
+
+.code
+
+mov ah, 1h
+int 21h
+mov dl, al
+
+mov ah, 2h
+int 21h
+
+end
+
+
+
+; [SOURCE]: C:\Users\jlill\Documents\GitHub\youtube-assembly-x86-rasim-muratovic\io\io.asm
